@@ -1,0 +1,14 @@
+D:\projects\Practice\Practice\app_A\N_6\bin\Debug\net8.0\N_6.exe
+D:\projects\Practice\Practice\app_A\N_6\bin\Debug\net8.0\N_6.deps.json
+D:\projects\Practice\Practice\app_A\N_6\bin\Debug\net8.0\N_6.runtimeconfig.json
+D:\projects\Practice\Practice\app_A\N_6\bin\Debug\net8.0\N_6.dll
+D:\projects\Practice\Practice\app_A\N_6\bin\Debug\net8.0\N_6.pdb
+D:\projects\Practice\Practice\app_A\N_6\obj\Debug\net8.0\N_6.GeneratedMSBuildEditorConfig.editorconfig
+D:\projects\Practice\Practice\app_A\N_6\obj\Debug\net8.0\N_6.AssemblyInfoInputs.cache
+D:\projects\Practice\Practice\app_A\N_6\obj\Debug\net8.0\N_6.AssemblyInfo.cs
+D:\projects\Practice\Practice\app_A\N_6\obj\Debug\net8.0\N_6.csproj.CoreCompileInputs.cache
+D:\projects\Practice\Practice\app_A\N_6\obj\Debug\net8.0\N_6.dll
+D:\projects\Practice\Practice\app_A\N_6\obj\Debug\net8.0\refint\N_6.dll
+D:\projects\Practice\Practice\app_A\N_6\obj\Debug\net8.0\N_6.pdb
+D:\projects\Practice\Practice\app_A\N_6\obj\Debug\net8.0\N_6.genruntimeconfig.cache
+D:\projects\Practice\Practice\app_A\N_6\obj\Debug\net8.0\ref\N_6.dll
