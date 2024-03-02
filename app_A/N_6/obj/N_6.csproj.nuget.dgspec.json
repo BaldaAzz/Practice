@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\projects\\Practice\\Practice\\app_A\\N_6\\N_6.csproj": {}
+    "D:\\projects\\Practice\\Practice-1\\app_A\\N_6\\N_6.csproj": {}
   },
   "projects": {
-    "D:\\projects\\Practice\\Practice\\app_A\\N_6\\N_6.csproj": {
+    "D:\\projects\\Practice\\Practice-1\\app_A\\N_6\\N_6.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\projects\\Practice\\Practice\\app_A\\N_6\\N_6.csproj",
+        "projectUniqueName": "D:\\projects\\Practice\\Practice-1\\app_A\\N_6\\N_6.csproj",
         "projectName": "N_6",
-        "projectPath": "D:\\projects\\Practice\\Practice\\app_A\\N_6\\N_6.csproj",
+        "projectPath": "D:\\projects\\Practice\\Practice-1\\app_A\\N_6\\N_6.csproj",
         "packagesPath": "C:\\Users\\Azart\\.nuget\\packages\\",
-        "outputPath": "D:\\projects\\Practice\\Practice\\app_A\\N_6\\obj\\",
+        "outputPath": "D:\\projects\\Practice\\Practice-1\\app_A\\N_6\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

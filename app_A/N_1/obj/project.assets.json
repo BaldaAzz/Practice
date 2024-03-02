@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\projects\\Practice\\Practice\\app_A\\N_1\\N_1.csproj",
+      "projectUniqueName": "D:\\projects\\Practice\\Practice-1\\app_A\\N_1\\N_1.csproj",
       "projectName": "N_1",
-      "projectPath": "D:\\projects\\Practice\\Practice\\app_A\\N_1\\N_1.csproj",
+      "projectPath": "D:\\projects\\Practice\\Practice-1\\app_A\\N_1\\N_1.csproj",
       "packagesPath": "C:\\Users\\Azart\\.nuget\\packages\\",
-      "outputPath": "D:\\projects\\Practice\\Practice\\app_A\\N_1\\obj\\",
+      "outputPath": "D:\\projects\\Practice\\Practice-1\\app_A\\N_1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

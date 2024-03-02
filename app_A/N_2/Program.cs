@@ -5,13 +5,13 @@
         Console.WriteLine("Введите трехзначное число с различными цифрами:");
         int number = Convert.ToInt32(Console.ReadLine());
 
-        if ((number is Int32) && (IsThreeDigitNumber(number)))
+        if (IsThreeDigitNumber(number))
         {
             PrintNums(number);
         }
         else
         {
-            Console.WriteLine("Ошибка! Не корректные данные. Не трёхзначное число или вовсе не число");
+            Console.WriteLine("Ошибка! Не трёхзначное число или вовсе не число");
         }
     }
 
