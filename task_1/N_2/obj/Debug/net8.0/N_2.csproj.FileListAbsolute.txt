@@ -1,0 +1,15 @@
+D:\projects\Practice\Practice-1\task_1\N_2\obj\Debug\net8.0\N_2.GeneratedMSBuildEditorConfig.editorconfig
+D:\projects\Practice\Practice-1\task_1\N_2\obj\Debug\net8.0\N_2.AssemblyInfoInputs.cache
+D:\projects\Practice\Practice-1\task_1\N_2\obj\Debug\net8.0\N_2.AssemblyInfo.cs
+D:\projects\Practice\Practice-1\task_1\N_2\obj\Debug\net8.0\N_2.csproj.CoreCompileInputs.cache
+D:\projects\Practice\Practice-1\task_1\N_2\obj\Debug\net8.0\N_2.sourcelink.json
+D:\projects\Practice\Practice-1\task_1\N_2\bin\Debug\net8.0\N_2.exe
+D:\projects\Practice\Practice-1\task_1\N_2\bin\Debug\net8.0\N_2.deps.json
+D:\projects\Practice\Practice-1\task_1\N_2\bin\Debug\net8.0\N_2.runtimeconfig.json
+D:\projects\Practice\Practice-1\task_1\N_2\bin\Debug\net8.0\N_2.dll
+D:\projects\Practice\Practice-1\task_1\N_2\bin\Debug\net8.0\N_2.pdb
+D:\projects\Practice\Practice-1\task_1\N_2\obj\Debug\net8.0\N_2.dll
+D:\projects\Practice\Practice-1\task_1\N_2\obj\Debug\net8.0\refint\N_2.dll
+D:\projects\Practice\Practice-1\task_1\N_2\obj\Debug\net8.0\N_2.pdb
+D:\projects\Practice\Practice-1\task_1\N_2\obj\Debug\net8.0\N_2.genruntimeconfig.cache
+D:\projects\Practice\Practice-1\task_1\N_2\obj\Debug\net8.0\ref\N_2.dll
