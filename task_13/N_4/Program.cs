@@ -1,7 +1,9 @@
 ﻿using System;
 
 /*
-Ссылка на статью, где лучше объясняется про событие
+Ссылка на статью, где лучше объясняется про событие,
+чем в теоритическом материале.
+
 Может пригодится
 https://habr.com/ru/articles/213809/
 */
@@ -11,11 +13,14 @@ namespace N_4
     class Meteorite
     {
         public delegate void MethodContainer();
-        public event MethodContainer whenFall;
+        public event MethodContainer WhenFall;
+
+        // Чтобы небыло исключения, если не будет ссылки хотябы на один метод
+        public Meteorite() => WhenFall = () => {};
 
         public void FallToEarth()
         {   
-            whenFall();
+            WhenFall();
             Console.WriteLine("Метиорит упал на землю");
         }
     }
@@ -38,9 +43,11 @@ namespace N_4
             God god = new();
             Dinosaur Anton = new();
 
-            meteorite.whenFall += god.Say;
-            meteorite.whenFall += Anton.Say;
+            meteorite.WhenFall += god.Say;
+            meteorite.WhenFall += Anton.Say;
+            meteorite.FallToEarth();
 
+            meteorite.WhenFall -= god.Say;
             meteorite.FallToEarth();
         }
     }
