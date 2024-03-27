@@ -1,11 +1,24 @@
 ﻿using System;
 
 namespace N_2
-{
+{   
+    /// <summary>
+    /// Класс содержащий основную программу
+    /// </summary>
     class Program
     {   
+        /// <summary>
+        /// Делегат, содержащий арифметические операции
+        /// </summary>
+        /// <param name="a">Первый операнд</param>
+        /// <param name="b">Второй операнд</param>
+        /// <returns>Результат арифметической операции</returns>
         public delegate double Del(double a, double b);
 
+        /// <summary>
+        /// Метод выполняющий программу
+        /// </summary>
+        /// <param name="args">Аргументы консоли</param>
         static void Main(string[] args)
         {
             Del Add = (a, b) => a + b;
