@@ -72,6 +72,7 @@ class Program
 {
     static void Main()
     {
+        Console.InputEncoding = System.Text.Encoding.GetEncoding("utf-16");
         Console.WriteLine("_____Пример_____");
 
         Animal lion = new Animal("Лев", "Крупное Хищное Животное");

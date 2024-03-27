@@ -1,21 +1,34 @@
 ﻿namespace N_4
 {
+    /// <summary>
+    /// Класс реализующий матрицу
+    /// </summary>
     class Matrix
     {
         private double[,] matrix;
         private int rows;
         private int columns;
 
+        /// <value>
+        /// Свойство возвращающее кол-во строк в матрице
+        /// </value>
         public int Rows
         {
             get { return this.rows; }
         }
 
+        /// <value>
+        /// Свойство возвращающее кол-во столбцов в матрице
+        /// </value>
         public int Columns
         {
             get { return this.columns; }
         }
 
+        /// <summary>
+        /// Конструктор класса Matrix, создающий из двумерного массива, матрицу
+        /// </summary>
+        /// <param name="matrix">Двумерный массив</param>
         public Matrix(double[,] matrix)
         {
             this.matrix = matrix;
@@ -23,6 +36,11 @@
             columns = matrix.GetLength(1);
         }
 
+        /// <summary>
+        /// Конструктор класса Matrix, создающий пустую матрицу
+        /// </summary>
+        /// <param name="rows">Кол-во строк</param>
+        /// <param name="columns">Кол-во столбцов</param>
         public Matrix(int rows, int columns)
         {
             this.rows = rows;
@@ -60,6 +78,9 @@
             return newMatrix;
         }
 
+        /// <summary>
+        /// Метод выводящий матрицу в консоль
+        /// </summary>
         public void Print()
         {
             for (int i = 0; i < this.rows; i++)
@@ -73,8 +94,15 @@
         }
     }
 
+    /// <summary>
+    /// Класс содержащий основную программу
+    /// </summary>
     class Program
     {
+        /// <summary>
+        /// Метод выполняющий программу
+        /// </summary>
+        /// <param name="args">Аргументы консоли</param>
         static void Main(string[] args)
         {
             Matrix m = new Matrix(3, 3);

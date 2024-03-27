@@ -1,8 +1,11 @@
-﻿using System.Collections.Generic;
-using System.IO;
+﻿using System.IO;
+using System.Collections.Generic;
 
 namespace N_5
 {
+    /// <summary>
+    /// Класс 
+    /// </summary>
     class Item
     {
         public string Word {get;}
@@ -15,6 +18,9 @@ namespace N_5
         }
     }
     
+    /// <summary>
+    /// Класс содержащий компоненты предметного указалеля
+    /// </summary>
     class SubjectIndex
     {
         private List<Item> components = new List<Item>();
@@ -23,12 +29,20 @@ namespace N_5
         {
         }
 
+        /// <summary>
+        /// Конструктор, который считывает данные из файла
+        /// </summary>
+        /// <param name="fileName">Название файла</param>
         public SubjectIndex(string fileName)
         {
-            Write(fileName);
+            Read(fileName);
         }
 
-        private void Write(string fileName)
+        /// <summary>
+        /// Метод считывающий данные из файла
+        /// </summary>
+        /// <param name="fileName">Название файла</param>
+        private void Read(string fileName)
         {
             using (StreamReader sr = new StreamReader(fileName))
             {
@@ -48,12 +62,21 @@ namespace N_5
             }
         }
 
+        /// <summary>
+        /// Добавление компонента в предметный указатель
+        /// </summary>
+        /// <param name="word">Слово</param>
+        /// <param name="pages">Страницы, на которых оно встречается</param>
         public void Input(string word, int[] pages)
         {
             Item i = new Item(word, pages);
             components.Add(i);
         }
 
+        /// <summary>
+        /// Удаление компонета
+        /// </summary>
+        /// <param name="word">Слово</param>
         public void Remove(string word)
         {
             for (int i = 0; i < components.Count; i++)
@@ -62,6 +85,9 @@ namespace N_5
             }
         }
 
+        /// <summary>
+        /// Вывод компонентов на экран
+        /// </summary>
         public void Print()
         {
             foreach (Item item in this.components)
@@ -76,8 +102,15 @@ namespace N_5
         }
     }
 
+    /// <summary>
+    /// Класс содержащий основную программу
+    /// </summary>
     class Program
     {
+        /// <summary>
+        /// Метод выполняющий программу
+        /// </summary>
+        /// <param name="args">Аргументы консоли</param>
         static void Main(string[] args)
         {
             SubjectIndex sj = new SubjectIndex("N_5/bin/Debug/net8.0/input.txt");
