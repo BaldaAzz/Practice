@@ -4,8 +4,15 @@ using System.Collections.Generic;
 
 namespace N_3
 {
+    /// <summary>
+    /// Класс содержащий основную программу
+    /// </summary>
     class Program
     {
+        /// <summary>
+        /// Метод выполняющий программу
+        /// </summary>
+        /// <param name="args">Аргументы консоли</param>
         static void Main(string[] args)
         {   
             List<string> stringsList = new();
