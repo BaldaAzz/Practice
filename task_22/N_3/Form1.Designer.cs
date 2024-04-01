@@ -44,7 +44,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(12, 275);
+            this.button1.Location = new System.Drawing.Point(12, 130);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(183, 23);
             this.button1.TabIndex = 17;
@@ -54,16 +54,16 @@
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(12, 128);
+            this.textBox4.Location = new System.Drawing.Point(12, 92);
             this.textBox4.Multiline = true;
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(183, 141);
+            this.textBox4.Size = new System.Drawing.Size(183, 32);
             this.textBox4.TabIndex = 16;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(9, 103);
+            this.label4.Location = new System.Drawing.Point(12, 76);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(186, 13);
             this.label4.TabIndex = 15;
@@ -108,7 +108,7 @@
             this.groupBox1.Controls.Add(this.radioButton1);
             this.groupBox1.Location = new System.Drawing.Point(212, 10);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(112, 288);
+            this.groupBox1.Size = new System.Drawing.Size(112, 143);
             this.groupBox1.TabIndex = 18;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Функции";
@@ -150,7 +150,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(328, 305);
+            this.ClientSize = new System.Drawing.Size(328, 159);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.textBox4);

@@ -101,12 +101,12 @@
             this.textBox4.Location = new System.Drawing.Point(12, 130);
             this.textBox4.Multiline = true;
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(183, 141);
+            this.textBox4.Size = new System.Drawing.Size(183, 45);
             this.textBox4.TabIndex = 7;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(12, 277);
+            this.button1.Location = new System.Drawing.Point(12, 181);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(183, 23);
             this.button1.TabIndex = 8;
@@ -118,7 +118,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(210, 309);
+            this.ClientSize = new System.Drawing.Size(210, 210);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.textBox4);
             this.Controls.Add(this.label4);
