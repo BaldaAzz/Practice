@@ -1,0 +1,57 @@
+﻿<Window x:Class="N_1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:N_1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1.5*" />
+            <RowDefinition Height="5*" />
+            <RowDefinition Height="5*" />
+            <RowDefinition Height="1.5*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="5*" />
+            <ColumnDefinition Width="2*" />
+        </Grid.ColumnDefinitions>
+        <TextBlock x:Name="textBlockXMLPathFile" Grid.Row="0" Margin="10"/>
+        <Button x:Name="buttonOpenFile" Content="Открыть" Grid.Column="1" FontSize="16" Margin="10"
+                Click="buttonOpenFile_Click_1"/>
+        <Grid Grid.Row="1" Grid.Column="1" Margin="10">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="0.5*" />
+                <RowDefinition Height="2*" />
+                <RowDefinition Height="2*" />
+            </Grid.RowDefinitions>
+            <TextBlock Text="Найти" Grid.Row="0" FontSize="14"/>
+            <TextBox x:Name="textBoxFlowerName" Grid.Row="1" Margin="10" />
+            <Button x:Name="buttonFindFlowerName" Content="Найти" Grid.Row="2" FontSize="16" Grid.Column="1" Margin="10" 
+                    Click="buttonFindFlowerName_Click_1"/>
+        </Grid>
+        <TextBlock x:Name="textBlockXMLFileContent" 
+                   Grid.Row="1"
+                   Grid.RowSpan="2"
+                   Margin="5"
+                   ScrollViewer.VerticalScrollBarVisibility="Auto"
+                   ScrollViewer.CanContentScroll="True"
+                   ScrollViewer.HorizontalScrollBarVisibility="Disabled" />
+        <Grid Grid.Row="2" Grid.Column="1" Margin="10">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="0.5*" />
+                <RowDefinition Height="2*" />
+                <RowDefinition Height="2*" />
+            </Grid.RowDefinitions>
+            <TextBlock Text="Удаление" Grid.Row="0" FontSize="14"/>
+            <TextBox x:Name="textBoxDeleteFlowerName" Grid.Row="1" Margin="10" />
+            <Button x:Name="buttonDeleteFlowerName" Content="Удалить" Grid.Row="2" FontSize="16" Grid.Column="1" Margin="10"
+                    Click="buttonDelete_Click_1"/>
+        </Grid>
+        <Button x:Name="buttonAdd" Content="Добавить" Grid.Row="3" FontSize="16" Margin="10" 
+                Click="buttonAdd_Click_1"/>
+        <Button x:Name="buttonExit" Content="Выход" Grid.Row="3" FontSize="16" Grid.Column="1" Margin="10" 
+                Click="buttonExit_Click_1"/>
+    </Grid>
+</Window>

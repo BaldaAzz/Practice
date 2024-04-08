@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<flowers>
+  <flower1>
+    <flowerName>Ромашка</flowerName>
+    <price>14</price>
+  </flower1>
+  <flower2>
+    <flowerName>Одуванчик</flowerName>
+    <price>12</price>
+  </flower2>
+</flowers>
